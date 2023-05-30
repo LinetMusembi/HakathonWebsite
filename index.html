@@ -80,7 +80,7 @@
     <br>
     <br>
 <div class="dressing">
-    <i id="left" class="fa-solid fa-angle-left"></i>
+    <!-- <i id="left" class="fa-solid fa-angle-left"></i> -->
     <div class="dress">
     <div id="dre"><img src="pin3.png" alt="" id="dres"></div>
     <img src="pint4.png" alt="" draggable="false" id="dres">
@@ -89,7 +89,7 @@
     <img src="pint7.png" alt="" draggable="false" id="dres">
     <img src="pin3.png" alt="" draggable="false" id="dres">
     </div>
-    <i id="right" class="fa-solid fa-angle-right"></i>
+    <!-- <i id="right" class="fa-solid fa-angle-right"></i> -->
 </div>
     <script src="index.js"></script>
     <script src="https://kit.fontawesome.com/a5e3955037.js" crossorigin="anonymous"></script>
@@ -214,28 +214,30 @@
           <!-- <i id="right" class="fa-solid fa-angle-right"></i> -->
         </div>
         </section>
-       <div class="container">
-        <div class="contact">
-        <h2>Get in touch</h2>
-         <p>Phone: +254(7236591406)</p>
-         <p>Email:fashionhouse@gmail.com</p>
-         <p>Address:18 korongo road street Karen,Nairobi,Kenya</p>
-         <div>
-            <h2>Talk to us</h2>
-         </div>
+        <div class="container">
+          <div class="contact">
+          <h2>Get in touch</h2>
+           <p>Phone: +254(7236591406)</p>
+           <p>Email:fashionhouse@gmail.com</p>
+           <p>Address:18 korongo road street Karen,Nairobi,Kenya</p>
+          </div>
+          <div class="table">
+              <h3>Talk to us</h3>
+          <form id="contactForm">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Your email address" required>
+            <label for="phone number">Phone number</label>
+            <input type="text" id="number" name="number" placeholder="Your Phone number" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+            <input type="submit" value="Submit">
+          </form>
         </div>
-        <form id="contactForm">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" placeholder="Your name" required>
-          <label for="email">Email:</label>
-          <input type="text" id="email" name="email" placeholder="Your email address" required>
-          <label for="phone number">Phone number</label>
-          <input type="text" id="number" name="number" placeholder="Your Phone number" required>
-          <label for="message">Message:</label>
-          <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
-          <input type="submit" value="Submit">
-        </form>
-      </div>
+       </div>
+
+       
         <script src="fashion.js"></script>
         <script src="https://kit.fontawesome.com/a5e3955037.js" crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>

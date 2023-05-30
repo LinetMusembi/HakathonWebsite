@@ -952,6 +952,30 @@ gap: 1em;
   justify-content: space-between;
 }
 }
+.contact h2{
+  font-size: 20px;
+  margin-top: 40px;
+  text-align: center;
+}
+.contact{
+    margin-top: 40px;
+    padding-top: 10%;
+    
+}
+ .contact p{
+ font-size: 20px;
+  margin-top: 20px;
+ text-align: center;
+}
+.table{
+    text-align: center;
+    margin-top: 10%;
+    width: 70%;
+     padding-right: 5px;
+}
+.table{
+  margin-left: 20%;
+}
 
 
 
